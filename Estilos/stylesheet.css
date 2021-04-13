@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.margenes{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#cuerpo{background-color: rgb(19, 23, 34);}
+
+body{
+    background-color: rgb(19, 23, 34);
+    color: white;
+}
+
+.ancho{
+  width: 80%;
+  height: 70px;
+  margin: auto;
+ }
+
+
+header{
+  width: 100%;
+  height: 70px;
+}
+
+.logo{
+  width: 30%;
+  height: 70px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.logo p{  margin-top: 30px;
+
+}
+.logo p a{
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+  font-family:'Segoe UI';
+  font-style: oblique;
+}
+
+nav{
+  width: 50%;
+  height: 50px;
+  float: left;
+  text-align: right;
+  padding-top: 24px;
+  box-sizing: border-box;
+  
+  
+}
+
+
+nav ul li{
+  display: inline;
+    
+}
+
+nav ul li a{
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 15px;
+  color: lightblue;
+  
+}
+
+.fotologo{
+ 
+  max-width: 100%;
+  max-height: 100%;
+
+  
+}
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap; 
+  justify-content: center;
+  
+
+}
+
+.flex-container div{
+  width: 100px;
+ margin: 10px;
+ text-align: justify;
+ line-height: 75px;
+ font-size: 30px;
+}
+
+.redes {
+  text-align: center;
+  color: aquamarine;
+
+}
+
+h1 {
+  color: beige;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  text-decoration: underline
+}
+
+
+fieldset{
+  box-sizing: border-box;
+}
+
+.tablas{
+
+  list-style-type: disc;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+
+.videos {
+  justify-content: center;
+  text-align: center;
+  }
+
+  .encuestaColumn {
+  display: flex;
+  flex-direction: column;
+  }
+
+  .encuestaRow {
+  display: flex;
+  flex-direction: row;
+  
+  }
+
+  table tr td{
+    font-weight: bold;
+    font-size: 20px;
+    }
+
+
+  .textoteam{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="../Estilos/stylesheet.css">
+</head>
+
+<body>
+  <!----------------------Encabezado------------------------------------------>
+  <!--Encabezado-->
+  <header>
+
+    <div>
+      <div>
+        <a href="index.html"><img src="../images/logo.png" alt="" class="fotologo" align="left"></a>
+      </div>
+      <div class="logo">
+        <p><a href="index.html">Bitconomy - Cotizaciones</a></p>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../Menues/Team.html">Team</a></li>
+          <li><a href="../Menues/Logros.html">Logros</a></li>
+          <li><a href="../Menues/Noticias.html">Noticias</a></li>
+          <li><a href="../Menues/Cotizaciones.html">Cotizaciones</a></li>
+          <li><a href="../Menues/Contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+    </div>
+    <br>
+
+  </header>
+
+  <br><br>
+  <hr>
+
+  <br><br><br><br>
+
+
+
+  <!----------------------Fin del encabezado---------------------------------->
+
+  <div class="margenes">
+
+
+    <h1>Cotizaciones en tiempo real</h1>
+
+    <div class="flex-container">
+
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js"
+        async>
+        {
+          "title": "Stocks",
+          "tabs": [{
+              "title": "Financial",
+              "symbols": [{
+                  "s": "NYSE:JPM",
+                  "d": "Jpmorgan Chase & Co"
+                },
+                {
+                  "s": "NYSE:WFC",
+                  "d": "Wells Fargo Co New"
+                },
+                {
+                  "s": "NYSE:BAC",
+                  "d": "Bank Amer Corp"
+                },
+                {
+                  "s": "NYSE:HSBC",
+                  "d": "Hsbc Hldgs Plc"
+                },
+                {
+                  "s": "NYSE:C",
+                  "d": "Citigroup Inc"
+                },
+                {
+                  "s": "NYSE:MA",
+                  "d": "Mastercard Incorporated"
+                }
+              ]
+            },
+            {
+              "title": "Technology",
+              "symbols": [{
+                  "s": "NASDAQ:AAPL",
+                  "d": "Apple"
+                },
+                {
+                  "s": "NASDAQ:GOOGL",
+                  "d": "Google Inc"
+                },
+                {
+                  "s": "NASDAQ:MSFT",
+                  "d": "Microsoft Corp"
+                },
+                {
+                  "s": "NASDAQ:FB",
+                  "d": "Facebook Inc"
+                },
+                {
+                  "s": "NYSE:ORCL",
+                  "d": "Oracle Corp"
+                },
+                {
+                  "s": "NASDAQ:INTC",
+                  "d": "Intel Corp"
+                }
+              ]
+            },
+            {
+              "title": "Services",
+              "symbols": [{
+                  "s": "NASDAQ:AMZN",
+                  "d": "Amazon Com Inc"
+                },
+                {
+                  "s": "NYSE:BABA",
+                  "d": "Alibaba Group Hldg Ltd"
+                },
+                {
+                  "s": "NYSE:T",
+                  "d": "At&t Inc"
+                },
+                {
+                  "s": "NYSE:WMT",
+                  "d": "Wal-mart Stores Inc"
+                },
+                {
+                  "s": "NYSE:V",
+                  "d": "Visa Inc"
+                }
+              ]
+            }
+          ],
+          "width": 400,
+          "height": 660,
+          "showChart": true,
+          "locale": "en",
+          "plotLineColorGrowing": "rgba(33, 150, 243, 1)",
+          "plotLineColorFalling": "rgba(33, 150, 243, 1)",
+          "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+          "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+          "gridLineColor": "#2A2E39",
+          "scaleFontColor": "rgba(120, 123, 134, 1)",
+          "showSymbolLogo": true,
+          "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
+          "colorTheme": "dark"
+        }
+      </script>
+
+      <!--Cotizacion dolar-->
+
+      <iframe width="300px" height="690px" src="https://www.dolarsi.com/func/moduloArriba-n.html" frameborder="0"
+        scrolling="0" allowfullscreen=""></iframe>
+
+    </div>
+
+    <br>
+    <hr>
+  </div>
+
+</body>
+
+</html>
