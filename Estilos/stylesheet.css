@@ -1,105 +1,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.margenes{
+.margenes {
   margin-left: 10%;
   margin-right: 10%;
-  
+
 }
 
-#cuerpo{background-color: rgb(19, 23, 34);}
+/* #cuerpo{background-color: rgb(19, 23, 34);} */
 
-body{
-    background-color: rgb(19, 23, 34);
-    color: white;
+body {
+  background-color: rgb(19, 23, 34);
+  color: white;
 }
 
-.ancho{
+.ancho {
   width: 80%;
   height: 70px;
   margin: auto;
- }
+}
 
 
-header{
+header {
   width: 100%;
   height: 70px;
 }
 
-.logo{
+.logo {
   width: 30%;
   height: 70px;
   float: left;
   box-sizing: border-box;
 }
 
-.logo p{  margin-top: 30px;
+.logo p {
+  margin-top: 30px;
 
 }
-.logo p a{
+
+.logo p a {
   color: white;
   margin-top: 30px;
   font-size: 20px;
   padding: 20px;
   text-decoration: none;
-  font-family:'Segoe UI';
+  font-family: 'Segoe UI';
   font-style: oblique;
 }
 
-nav{
+nav {
   width: 50%;
   height: 50px;
   float: left;
   text-align: center;
   padding-top: 24px;
   box-sizing: border-box;
-  
-  
 }
 
 
-nav ul li{
-  display: inline;
-    
+nav ul li {
+  display: inline-block;
+  position: relative;
+
 }
 
-nav ul li a{
+nav ul li a:hover{
+ color: cyan; 
+ padding: 10px;
+}
+
+nav ul li a {
   font-size: 13px;
   text-decoration: none;
   text-transform: uppercase;
   padding-left: 15px;
   color: lightblue;
-  
+
 }
 
-.fotologo{
- 
+ul ul {
+  position: absolute;
+  display: none;
+}
+
+ul ul li {
+  display: block;
+}
+
+nav ul li:hover ul {
+  display: block;
+  border-style: groove;
+  padding: 10px;
+  background-color: rgb(19, 23, 34);
+  color: lightblue;
+}
+
+.fotologo {
+
   max-width: 100%;
   max-height: 100%;
 
-  
 }
-
 
 
 .flex-container {
   display: flex;
-  flex-wrap: nowrap; 
+  flex-wrap: nowrap;
   justify-content: center;
-  
+
 
 }
 
-.flex-container div{
+.flex-container div {
   width: 100px;
- margin: 10px;
- text-align: justify;
- line-height: 75px;
- font-size: 30px;
+  margin: 10px;
+  text-align: justify;
+  line-height: 75px;
+  font-size: 30px;
 }
 
 .redes {
@@ -116,16 +137,16 @@ h1 {
 }
 
 
-fieldset{
+fieldset {
   box-sizing: border-box;
 }
 
-.tablas{
+.tablas {
 
   list-style-type: disc;
 }
 
-.content{
+.content {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -136,37 +157,37 @@ fieldset{
 .videos {
   justify-content: center;
   text-align: center;
-  }
+}
 
-  .encuestaColumn {
+.encuestaColumn {
   display: flex;
   flex-direction: column;
-  }
+}
 
-  .encuestaRow {
+.encuestaRow {
   display: flex;
   flex-direction: row;
-  
-  }
 
-  table tr td{
-    font-weight: bold;
-    font-size: 20px;
-    }
+}
+
+table tr td {
+  font-weight: bold;
+  font-size: 20px;
+}
 
 
-  .textoteam{
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
-  }
+.textoteam {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
 
-  .fixed{
-    position: fixed;
-    z-index: 2;
-  }
+.fixed {
+  position: fixed;
+  z-index: 2;
+}
 
-  bordeheader{
-    border-bottom: 6px solid red;
+bordeheader {
+  border-bottom: 6px solid red;
 
-  }
+}
