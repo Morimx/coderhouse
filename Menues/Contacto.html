@@ -12,45 +12,44 @@
 <body>
     <!----------------------Encabezado------------------------------------------>
     <!--Encabezado-->
-    <header>
+    <header class="fixed" style="background-color: rgb(19, 23, 34);">
 
-        <header class="fixed" style="background-color: rgb(19, 23, 34); padding-bottom: 20px;">
-
+        <div class="encamargenes">
             <div>
-                <div>
-                    <a href="../index.html"><img src="../images/logo2.png" alt="" class="fotologo" align="left"></a>
-                </div>
-                <div class="logo">
-                    <p><a href="../index.html">Bitconomy</a></p>
-                </div>
-    
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="../Menues/Team.html">Team</a></li>
-                        <li><a href="../Menues/Logros.html">Logros</a></li>
-                        <li><a href="../Menues/Noticias.html">Noticias</a></li>
-                        <li><a href="../Menues/Cotizaciones.html">Cotizaciones</a></li>
-                        <li><a href="../Menues/Contacto.html">Contacto</a>
-                            <ul style="margin-top: 10px; z-index: 2;">
-                                <li>Submenu1</li>
-                                <li>Submenu2</li>
-                                <li>Submenu3</li>
-                            </ul>
-                            </li>
-                    </ul>
-                </nav>
-    
+                <a href="index.html"><img src="../images/logo2.png" alt="" class="fotologo" align="left"></a>
             </div>
-    
-            <br><br><br><br><br>
-            <hr>
-    
-    
-        </header>
+            <div class="logo">
+                <p><a href="index.html">Bitconomy</a></p>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="Team.html">Team</a></li>
+                    <li><a href="Logros.html">Logros</a></li>
+                    <li><a href="Noticias.html">Noticias</a></li>
+                    <li><a href="Cotizaciones.html">Cotizaciones</a></li>
+
+
+                    <li><a href="Contacto.html">Contacto</a>
+
+                        <ul>
+                            <li>Submenu1</li>
+                            <li>Submenu2</li>
+                            <li>Submenu3</li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </nav>
+
+        </div>
+
+    <hr>
+
 
     </header>
-<br><br><br><br><br>
    
 
     <!--------------------------------------------------------------------------->
@@ -60,17 +59,18 @@
     <!--------------------------------------------------------------------------->
     <!------------------Formulario de contacto----------------------------------->
     <!--------------------------------------------------------------------------->
-    <div class="margenes">
+    <div class="mcont">
         <form>
 
-            <fieldset>
+            <fieldset class="formulario">
                 <legend>
                     <b> Formulario de contacto</b>
-                </legend><br>
+                </legend>
 
                 <!-------------------------->
                 <!--Campos del formulario-->
                 <!-------------------------->
+                <div class="mformu">
                 <div>
                     <label for="Nombre">Nombre:&nbsp;</label>
                     <input type="text" name="Nombre" placeholder="Nombre"><br>
@@ -118,9 +118,9 @@
                     <input type="submit" value="Enviar Formulario">
                     <input type="reset" value="Limpiar formulario">
                 </div>
-
+            </div>
             </fieldset>
-        </form><br><br>
+        </form>
 
         <!--------------------------------------------------------------------------->
         <!------------------Fin del Formulario de contacto--------------------------->

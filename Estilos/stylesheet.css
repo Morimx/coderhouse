@@ -11,6 +11,18 @@
 
 }
 
+.mt {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 100px;
+}
+
+.mcont{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 150px;
+}
+
 /* #cuerpo{background-color: rgb(19, 23, 34);} */
 
 body {
@@ -221,9 +233,19 @@ div ul li ul {
   z-index: 2;
 }
 
+.formulario{
+  width: 450px;
+  height: 400px;
+  
+  }
+
 footer{
   margin-top: 20px;
   position: static;
+}
+
+.mformu{
+  margin: 10px 10px 10px 10px;
 }
 
 .grid-container {
