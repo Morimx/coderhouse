@@ -11,9 +11,7 @@
 
 }
 
-.mt {
-  margin-left: 10%;
-  margin-right: 10%;
+.mt { 
   padding-top: 100px;
 }
 
@@ -24,10 +22,11 @@
 }
 
 
-body {
+/* body {
   background-color: rgb(19, 23, 34);
   color: white;
-}
+} */
+
 
 body main{
   padding-top: 100px;
@@ -252,6 +251,10 @@ div ul li ul {
   z-index: 2;
 }
 
+.expertos{
+  margin-bottom: 50px; 
+  margin-top: 35px;
+}
 .formulario{
   width: 450px;
   height: 400px;
@@ -299,21 +302,28 @@ footer{
 .Footer { grid-area: Footer; }
 
 
-/* NOTICIAS CAMBIO DE FONDO */
+/*CAMBIO DE FONDO */
 
-.background-news{
-  background-color: rgb(195, 196, 211);
+.background{
+  background-color: rgb(19, 23, 34) ;
+  color: white;
 }
 
 @media screen and (max-width: 760px) {
-  .background-news{
+  .background{
    background-color: chartreuse;
   }
 }
 
 @media screen and (max-width: 460px) {
-  .background-news{
+  .background{
    background-color: rgb(59, 48, 30);
+  }
+
+  .expertos{
+    font-size: medium;
+    margin-left: 240px;
+    text-decoration: underline;
   }
 }
 
