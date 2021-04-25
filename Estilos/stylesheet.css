@@ -71,10 +71,10 @@ nav {
   text-align: center;
   padding-top: 24px;
   box-sizing: border-box;
-  
+
 }
 
-.flex-divtest{
+.flex-div{
   display: flex;
   justify-content: flex-end;
   width: 100%;
@@ -203,6 +203,8 @@ fieldset {
   margin-left: 10px;
 }
 
+
+/* SECCION VIDEOS Y ENCUESTA */
 .videos {
   justify-content: center;
   text-align: center;
