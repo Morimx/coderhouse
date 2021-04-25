@@ -183,6 +183,10 @@ fieldset {
   justify-content: space-evenly;
 }
 
+.content-header {
+  display: flex;
+  flex-direction: row;
+}
 
 
 .videos {
