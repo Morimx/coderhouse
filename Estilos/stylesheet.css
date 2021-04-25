@@ -23,7 +23,6 @@
   padding-top: 150px;
 }
 
-/* #cuerpo{background-color: rgb(19, 23, 34);} */
 
 body {
   background-color: rgb(19, 23, 34);
@@ -281,3 +280,42 @@ footer{
 .Personal3 { grid-area: Personal3; }
 .Personal2 { grid-area: Personal2; }
 .Personal4 { grid-area: Personal4; }
+
+.grid-container-index {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Header-Grid Header-Grid Header-Grid Header-Grid"
+    "Body Body Body Body"
+    "Footer Footer Footer Footer";
+}
+
+.Header-Grid { grid-area: Header-Grid; }
+
+.Body { grid-area: Body; }
+
+.Footer { grid-area: Footer; }
+
+
+/* NOTICIAS CAMBIO DE FONDO */
+
+.background-news{
+  background-color: rgb(195, 196, 211);
+}
+
+@media screen and (max-width: 760px) {
+  .background-news{
+   background-color: chartreuse;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .background-news{
+   background-color: rgb(59, 48, 30);
+  }
+}
+
+
+/* FIN */
