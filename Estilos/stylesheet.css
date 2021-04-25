@@ -329,3 +329,28 @@ footer{
 
 
 /* FIN */
+
+
+/* Animacion */
+
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:200px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+.animacion-test{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  animation: infinite;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-delay: 0s;
+ 
+}
+
+/* FIN */
+
