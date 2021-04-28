@@ -22,12 +22,6 @@
 }
 
 
-/* body {
-  background-color: rgb(19, 23, 34);
-  color: white;
-} */
-
-
 body main{
   padding-top: 100px;
 }
@@ -62,58 +56,6 @@ header {
   text-decoration: none;
   font-family: 'Segoe UI';
   font-style: oblique;
-}
-
-nav {
-  height: 50px;
-  text-align: center;
-  padding-top: 24px;
-  box-sizing: border-box;
-
-}
-
-.flex-div{
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  
-}
-
-nav ul li {
-  display: inline-block;
-  position: relative;
-
-}
-
-nav ul li a:hover{
- color: cyan; 
-
-}
-
-nav ul li a {
-  font-size: 13px;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding-left: 15px;
-  color: lightblue;
-
-}
-
-ul ul {
-  position: absolute;
-  display: none;
-}
-
-ul ul li {
-  display: block;
-}
-
-nav ul li:hover ul {
-  display: block;
-  border-style: groove;
-  padding: 10px;
-  background-color: rgb(19, 23, 34);
-  color: lightblue;
 }
 
 .fotologo {
