@@ -8,13 +8,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitconomy</title>
 
-    <!--boostrap & CSS start-->
+    <!-- boostrap & CSS start-->
+
     <link rel="stylesheet" href="Estilos/stylesheet.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+    </script>
+
+    
+
+
     <!--Boostrap end-->
 
+
+    <style>
+        .fondito {
+            display: flex;
+            justify-content: center;
+        }
+
+        .fondito2 {
+            background-color: darkturquoise;
+        }
+    </style>
 </head>
 
 <body class="background">
@@ -22,7 +41,14 @@
     <!--Encabezado-->
 
     <header class="navbar-fixed-top">
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse role=" navigation">
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Desplegar navegación</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
@@ -30,20 +56,25 @@
                     </a>
                     <a class="navbar-brand" href="index.html">Bitconomy</a>
                 </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="Menues/Team.html">Team</a></li>
-                    <li><a href="Menues/Logros.html">Logros</a></li>
-                    <li><a href="Menues/Noticias.html">Noticias</a></li>
-                    <li><a href="Menues/Cotizaciones.html">Cotizaciones</a></li>
-                    <li><a href="Menues/Contacto.html">Contacto</a></li>
-                </ul>
+
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="Menues/Team.html">Team</a></li>
+                        <li><a href="Menues/Logros.html">Logros</a></li>
+                        <li><a href="Menues/Noticias.html">Noticias</a></li>
+                        <li><a href="Menues/Cotizaciones.html">Cotizaciones</a></li>
+                        <li><a href="Menues/Contacto.html">Contacto</a></li>
+                    </ul>
 
 
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
@@ -52,14 +83,12 @@
     <!--fin del encabezado-->
 
 
+    <!--
     <main>
-
-
         <div class="margenes">
 
 
-
-            <!--Videsos DESTACADOS-->
+            
 
             <div class="content">
                 <div class="videos" style="margin-top: 30px;">
@@ -75,7 +104,7 @@
 
 
 
-                <!--Encuesta-->
+              
                 <div class="encuestaColumn">
 
                     <h1>Encuestas</h1>
@@ -109,17 +138,18 @@
                 </div>
 
             </div>
-            <!--Fin de la encuesta-->
+        
 
 
 
             <h1 class="graficomargen">Grafico en tiempo real</h1>
-            <!-- TradingView Widget BEGIN -->
+           
             <div class="tradingview-widget-container">
                 <div id="tradingview_a28d4"></div>
                 <div class="tradingview-widget-copyright"><a href="https://es.tradingview.com/symbols/NASDAQ-AAPL/"
                         rel="noopener" target="_blank"><span class="blue-text">AAPL Gráfico</span></a> por
-                    TradingView</div>
+                    TradingView
+                </div>
                 <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
                 <script type="text/javascript">
                     new TradingView.widget({
@@ -138,7 +168,7 @@
                     });
                 </script>
             </div>
-            <!-- TradingView Widget END -->
+           
 
 
 
@@ -167,6 +197,102 @@
 
 
     </main>
+
+-->
+
+    <main class="margenes">
+        <!--VIDEOS DESTACADOS-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-5">
+                    <div>
+                        <h1 class="h1t">Videos Destacados</h1>
+                    </div>
+                    <div class="fondito">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4jEH6H5ZqUA"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!---FIN DE LOS VIDEOS-->
+                <div class="col-md-1"></div>
+             <!--ENCUESTAS INICIO-->
+                <div class="col-md-5">
+                    <h1 class="h1t">Encuestas</h1>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class=" col-xs-0 col-md-2">
+
+                            </div>
+                            <div class="col-xs-6 col-md-4">
+                                <ul class="margenesen">
+                                    <li>
+                                        <label for="Opcion1">Opcion 1</label>
+                                        <input type="radio" name="Opcion1" value="1">
+                                    </li>
+
+                                    <li><label for="Opcion2">Opcion 2</label>
+                                        <input type="radio" name="Opcion1" value="1">
+                                    </li>
+
+                                    <li><label for="Opcion3">Opcion 3</label>
+                                        <input type="radio" name="Opcion1" value="1">
+                                    </li>
+
+                                    <li><label for="Opcion3">Opcion 4</label>
+                                        <input type="radio" name="Opcion1" value="1">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-6 col-md-2">
+                                <img style="width: 200px;" src="images/encuesta.png" alt="encuesta">
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <hr>
+        </div>
+        <!--ENCUESTA FIN-->
+
+        <!--GRAFICO EN TIEMPO REAL-->
+        <h1 class="graficomargen h1t">Mapa de árbol de criptomonedas</h1>
+           
+<div><script src="https://widgets.coingecko.com/coingecko-coin-heatmap-widget.js"></script>
+    <coingecko-coin-heatmap-widget  height="400" locale="es"></coingecko-coin-heatmap-widget></div>
+        <div><hr></div>
+
+        <!--CRIPTOS MAS VENDIDAS-->
+        
+       
+        <h1 class="colortitulo h1t">Cryptos mas vendidas</h1>
+
+        <div
+            style="height:560px; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; border: 1px solid #56667F; border-radius: 4px; text-align: right; line-height:14px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #56667F;padding:1px;padding: 0px; margin: 0px; width: 100%;">
+            <div style="height:540px; padding:0px; margin:0px; width: 100%;"><iframe
+                    src="https://widget.coinlib.io/widget?type=chart&theme=light&coin_id=859&pref_coin_id=1505"
+                    width="100%" height="536px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0"
+                    border="0" style="border:0;margin:0;padding:0;line-height:14px;"></iframe>
+            </div>
+            <div
+                style="color: #FFFFFF; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                <a href="https://coinlib.io" target="_blank"
+                    style="font-weight: 500; color: #FFFFFF; text-decoration:none; font-size:11px">Cryptocurrency
+                    Prices</a>&nbsp;by Coinlib</div>
+        </div>
+    </div>
+
+    </main>
+
 
     <!------------------------Pie de pagina----------------------------->
     <footer>

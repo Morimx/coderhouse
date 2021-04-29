@@ -94,12 +94,12 @@ header {
   margin-top: 50px;
 }
 
-h1 {
+.h1t {
   color: beige;
-  font-family: 'Cinzel', serif;
   text-align: center;
   text-decoration: underline;
   margin-bottom: 15px;
+  font-family: 'Cinzel', serif;
   
 }
 
@@ -251,27 +251,7 @@ footer{
   color: white;
 }
 
-@media screen and (max-width: 760px) {
-  .background{
-   background-color: chartreuse;
-  }
-}
-
-@media screen and (max-width: 460px) {
-  .background{
-   background-color: rgb(59, 48, 30);
-  }
-
-  .expertos{
-    font-size: medium;
-    margin-left: 240px;
-    text-decoration: underline;
-  }
-}
-
-
 /* FIN */
-
 
 /* Animacion */
 
@@ -293,6 +273,7 @@ footer{
   animation-delay: 0s;
  
 }
+
 
 /* FIN */
 
