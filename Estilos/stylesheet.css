@@ -254,7 +254,7 @@ footer{
 /* FIN */
 
 /* Animacion */
-
+/* 
 @keyframes logros {
   0%   {left:0px; top:0px;}
   25%  {left:200px; top:0px;}
@@ -272,8 +272,24 @@ footer{
   animation-duration: 10s;
   animation-delay: 0s;
  
-}
+} */
 
 
 /* FIN */
 
+.bg-dark{
+  background-color: rgba(19, 23, 34, 0.884) !important;
+}
+
+.bordenavbar{
+   
+  border-width: 1px;
+  box-shadow: 1px 1px 10px rgba(18, 160, 226, 0.596);
+}
+
+.fondobrand{
+  border-width: 10px;
+  border-radius: 75px;
+  box-shadow: 1px 1px 10px #4838d8;
+
+}
