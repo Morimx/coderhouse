@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.margenes {
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.mt { 
+  padding-top: 100px;
+}
+
+
+body{
+  main{
+  padding-top: 30px;
+      }
+}
+
+
+header {
+  width: 100%;
+  height: 70px;
+}
+
+.logo {
+height: 70px;
+box-sizing: border-box;
+
+    p {
+    margin-top: 30px;
+
+    }
+
+    a {
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-style: oblique;
+    }
+}
+
+.graficomargen{
+  margin-top: 50px;
+}
+
+.h1t {
+  color: beige;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 15px;
+  font-family: 'Cinzel', serif;
+  
+}
+
+.margenesen{
+  margin-top: 25%;
+  margin-right: 15px;
+}
+
+fieldset {
+  box-sizing: border-box;
+}
+
+.background{
+  background-color: rgb(19, 23, 34) ;
+  color: white;
+}
+
+.bg-dark{
+  background-color: rgba(19, 23, 34, 0.884) !important;
+}
+
+.bordenavbar{
+   
+  border-width: 1px;
+  box-shadow: 1px 1px 10px rgba(18, 160, 226, 0.596);
+}
+
+.fondobrand{
+  border-width: 10px;
+  border-radius: 75px;
+  box-shadow: 1px 1px 10px #4838d8;
+
+}
+
+.piedp{
+  bottom: 0;
+  width: 100%;
+}
+
+/* FIN */
+
+.boton {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 7px 12px;
+  border: 1px solid #D5D5D5;
+  background-image: linear-gradient(#EEE, #DDD);
+  font: 700 13px/18px Helvetica, arial;
+}
+.boton--estado-success {
+  color: #FFF;
+  background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
+  border-color: #4A993E;
+}
+
+.boton--estado-peligro {
+  color: #FFF;
+  background: #791313 linear-gradient(#c00a0a, #680404) repeat-x;
+  border-color: #4A993E;
+}
+
+.boton--estado-warning {
+  color: rgb(23, 158, 182);
+  background: #c9eb0c;
+  border-color: #e6bf42;
+}
+
+.boton--estado-login {
+  color: rgb(255, 255, 255);
+  background: #176bb1;
+  border-color: #14c0f5;
+}
+
+.boton--estado-sign-up {
+  color: rgb(255, 255, 255);
+  background: #961652;
+  border-color: #e034d8;
+}
+
+.boton--estado-offline {
+  color: rgb(255, 255, 255);
+  background: #b12a21;
+  border-color: #8d1313;
+}
+
+.boton--estado-online {
+  color: rgb(255, 255, 255);
+  background: #0f8623;
+  border-color: #27bb19;
+}
+
+@for $i from 1 through 3 {
+.boton-#{$i}{
+  width: 6em * $i;
+  color:skyblue *$i;
+}
+
+}
+
+.carousel-video {
+  display: block;
+  object-fit: cover;
+ 
+  top: 50%;
+  left: 50%;
+  min-width: 500px;
+  min-height: 500px;
+  
+  
+
+  /* uncomment the following line if you want to prevent mouse (or touch) clicks */
+  /* pointer-events: none; */
+}
