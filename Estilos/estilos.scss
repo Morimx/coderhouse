@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+
+
+// 2. Include any default variable overrides here
+
 * {
   margin: 0;
   padding: 0;
@@ -149,25 +157,45 @@ fieldset {
   border-color: #27bb19;
 }
 
+
+/*BUCLE*/
 @for $i from 1 through 3 {
 .boton-#{$i}{
   width: 6em * $i;
   color:skyblue *$i;
 }
 
+
+/* EACH */
+
+.auto-icon, .moto-icon, .avion-icon{
+  height: 250px;
+  width: 400px;
+  border: darkgoldenrod solid 3px;
 }
 
-.carousel-video {
-  display: block;
-  object-fit: cover;
- 
-  top: 50%;
-  left: 50%;
-  min-width: 500px;
-  min-height: 500px;
-  
-  
+@each $transporte in auto , moto , avion {
+  .#{$transporte}-icon{
+    background-image: url("../images/#{$transporte}.jpg");
+    background-size: cover;
+  }
+}
+}
 
-  /* uncomment the following line if you want to prevent mouse (or touch) clicks */
-  /* pointer-events: none; */
+/* MAPAS */ 
+
+$Maps: (
+    fuente1: black,
+    fuente2: blue,
+    fuente3: red
+    );
+
+@each $fuente, $color in $Maps {
+
+  .txt--#{$fuente} {
+    background-color: $color;
+    height: 200px;
+    width: 400px;
+  }
+  
 }

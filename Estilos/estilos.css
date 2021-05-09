@@ -146,9 +146,32 @@ fieldset {
   border-color: #27bb19;
 }
 
+/*BUCLE*/
 .boton-1 {
   width: 6em;
   color: skyblue;
+}
+
+/* EACH */
+.auto-icon, .moto-icon, .avion-icon {
+  height: 250px;
+  width: 400px;
+  border: darkgoldenrod solid 3px;
+}
+
+.auto-icon {
+  background-image: url("../images/auto.jpg");
+  background-size: cover;
+}
+
+.moto-icon {
+  background-image: url("../images/moto.jpg");
+  background-size: cover;
+}
+
+.avion-icon {
+  background-image: url("../images/avion.jpg");
+  background-size: cover;
 }
 
 .boton-2 {
@@ -156,20 +179,71 @@ fieldset {
   color: white;
 }
 
+/* EACH */
+.auto-icon, .moto-icon, .avion-icon {
+  height: 250px;
+  width: 400px;
+  border: darkgoldenrod solid 3px;
+}
+
+.auto-icon {
+  background-image: url("../images/auto.jpg");
+  background-size: cover;
+}
+
+.moto-icon {
+  background-image: url("../images/moto.jpg");
+  background-size: cover;
+}
+
+.avion-icon {
+  background-image: url("../images/avion.jpg");
+  background-size: cover;
+}
+
 .boton-3 {
   width: 18em;
   color: white;
 }
 
-.carousel-video {
-  display: block;
-  -o-object-fit: cover;
-     object-fit: cover;
-  top: 50%;
-  left: 50%;
-  min-width: 500px;
-  min-height: 500px;
-  /* uncomment the following line if you want to prevent mouse (or touch) clicks */
-  /* pointer-events: none; */
+/* EACH */
+.auto-icon, .moto-icon, .avion-icon {
+  height: 250px;
+  width: 400px;
+  border: darkgoldenrod solid 3px;
+}
+
+.auto-icon {
+  background-image: url("../images/auto.jpg");
+  background-size: cover;
+}
+
+.moto-icon {
+  background-image: url("../images/moto.jpg");
+  background-size: cover;
+}
+
+.avion-icon {
+  background-image: url("../images/avion.jpg");
+  background-size: cover;
+}
+
+/* MAPAS */
+.txt--fuente1 {
+  background-color: black;
+  height: 200px;
+  width: 400px;
+}
+
+.txt--fuente2 {
+  background-color: blue;
+  height: 200px;
+  width: 400px;
+}
+
+.txt--fuente3 {
+  background-color: red;
+  height: 200px;
+  width: 400px;
 }
 /*# sourceMappingURL=estilos.css.map */
